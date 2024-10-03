@@ -14,7 +14,7 @@ export default function Card (){
   const [course, setCourse] = useState('');
  
 
-const handleSubmit = (e) => {
+const handleSubmit = (e:any) => {
   e.preventDefault();
   console.log('Form submitted:', { name, email, phone, course });
 };
