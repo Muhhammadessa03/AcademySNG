@@ -1,1 +1,12 @@
+import Team from "@/app/Conponents/team"
+export defalt function About(){
+    return(
+
+                <main>
+                <Team/>
+                </main>
+
+
+    )
+}
 
